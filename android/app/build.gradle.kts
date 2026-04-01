@@ -8,7 +8,8 @@ plugins {
 android {
     namespace = "com.example.native_android_sms_retrieval_with_flutter"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "29.0.14033849"
+//        flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
