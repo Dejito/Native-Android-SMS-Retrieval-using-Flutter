@@ -14,7 +14,7 @@ import io.flutter.plugin.common.MethodChannel
 
 class MainActivity: FlutterFragmentActivity() {
 
-    private val CHANNEL = "chamsmobile.iamalive.com"
+    private val CHANNEL = "com.example.native_android_sms_retrieval_with_flutter"
     private val TAG = "SMS_AUTH_DEBUG"
     private val SMS_CONSENT_REQUEST = 101
     private var methodChannel: MethodChannel? = null
